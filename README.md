@@ -39,3 +39,4 @@ cd proxy-generator
 - `-i` or `--interface` - ethernet interface name, to which IPv6 subnet is allocated and where all proxies will be raised. Automatically parsed from system info by default, use ONLY if you have non-standard/additional interfaces on your server.
 - `-d` or `--disable-inet6-ifaces-check` - disable /etc/network/interfaces configuration check & exit when error.
   Use only if configuration handled by cloud-init or something like this (for example, on Vultr servers), rarely used parameter, check your VPS documentation
+
